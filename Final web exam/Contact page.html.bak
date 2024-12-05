@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="Final.js" type="text/javascrip"></script>
+<link rel="stylesheet" href="Final.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me.</title>
+</head>
+<body>
+<button onclick="Contact forms();">Login</button>
+<button onclick="Submit();">Submit here</button>
+<nav>
+<a href="Home page.html">Home page</a>
+<a href="About Me.html">About Me</a>
+</nav>
+<!-- Contact section form -->
+<h1 class="form1">Here are the different fields left for the intended customers to fill and book the place</h1>
+<div class="form2"> 
+<form action="">
+    <table border="1">
+<tr>
+    <td>Name</td>
+    <td><input type="text" placeholder="Enter your name" required></td>
+	</tr>
+<tr>
+    <td>Email</td>
+    <td><input type="text" placeholder="Enter your email" required></td>
+</tr>
+<tr>
+<tr>
+<textarea type="text" name="message" placeholder="Type your message here"></textarea>
+</tr>
+    <td>Submit</td>
+    <td><input type="submit" placeholder="Submit!!" name="submit"></td>
+</tr>
+    </table>
+</form>
+</div>
+</tr>
+</body>
+</html>
